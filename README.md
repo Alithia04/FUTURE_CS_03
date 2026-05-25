@@ -7,7 +7,7 @@ API Security Analysis
 ## API Tested
 JSONPlaceholder Test API
 
-Base YRL 
+Base URL 
 https://jsonplaceholder.typicode.com
 
 Endpoint Tested: 
@@ -40,18 +40,21 @@ The API response exposed user information including:
 - Phone numbers
 - Addresses
 - Company inforamtion
+- 
   **Severity:** Medium
 
   ----
   ### 3. Server Technology Disclosure
   The reponse headers revealed backend technology information through:
   - x-powered-by: Express
+  
     **Severity:** Low
 
   ----
 
   ### 4. Missing Security Header
   Several recommended security headers were not observed during testing
+  
   **Severity:** Low
 
   ----
@@ -60,6 +63,7 @@ The API response exposed user information including:
   The API included rate limiting headers such as:
   - x-ratelomit-limit
   -  x-ratelimit-remaining
+  - 
  This was identified as a positive security control
 ----
 
